@@ -1,0 +1,25 @@
+# VirtualBox / Virtual Machine files — never commit these (too large, not useful, may contain sensitive data)
+*.vdi
+*.vbox
+*.vbox-prev
+*.ova
+*.ovf
+*.vmdk
+*.iso
+*.7z
+
+# Snapshots folders
+Snapshots/
+*.sav
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
